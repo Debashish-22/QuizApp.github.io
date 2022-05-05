@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=background-color: #fff;, initial-scale=1.0">
+    <title>Quiz Page | Educurve</title>
+    <link rel="icon" href="https://pngimg.com/uploads/letter_e/small/letter_e_PNG82.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/quiz-page.css">
+</head>
+<body>
+
+    <header class="mb-4">
+        <div class="company-name text-center p-2">
+            <a href="/index.html">
+                <h2 class="text-black">Educurve</h2>
+            </a>  
+        </div>
+    </header>
+
+    <main class="quiz-page-content">
+        <section class="flex-col align-center p-2">
+
+            <div class="quiz-page-topic mb-3">
+                <h2>Mathematics</h2>
+            </div>
+
+            <div class="score-board mb-4 flex space-around align-center wrap">
+                <h5 class="mr-2 mb-2 ">Current Score: <span class="currentScore text-green"></span></h5>
+                <h5 class="mr-2 mb-2">Total Score: <span class="totalScore text-green"></span></h5>
+                <div>
+                    <a href="/quiz.html">Reset</a>
+                </div>
+                
+            </div>
+
+            <div class="questions-list">
+
+                <!-- through js file -->
+            </div>
+
+            <button class=" text-center submit">
+                Submit!
+            </button>
+
+        </section>
+    </main>
+
+   <button class="top flex center align-center">
+        <i class="bi bi-chevron-up"></i>
+   </button>
+
+    <footer class="p-3">
+        <div class="text-center">
+            <h6>(C) Educurve 2022. All Rights Reserved.</h6>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts/quiz.js"></script>
+    
+</body>
+</html>
